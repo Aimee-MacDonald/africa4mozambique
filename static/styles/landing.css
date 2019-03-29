@@ -1,0 +1,9 @@
+body{
+  display: flex;
+  flex-flow: nowrap column;
+  align-items: center;
+}
+
+.container{
+  max-width: 60rem;
+}
