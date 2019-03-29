@@ -1,0 +1,23 @@
+{
+  "name": "africa4mozambique",
+  "version": "1.0.0",
+  "description": "public home page for 'africa for mozambique'",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aimee-MacDonald/africa4mozambique.git"
+  },
+  "author": "Aimee MacDonald",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aimee-MacDonald/africa4mozambique/issues"
+  },
+  "homepage": "https://github.com/Aimee-MacDonald/africa4mozambique#readme",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4"
+  }
+}
