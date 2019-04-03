@@ -11,4 +11,4 @@ app.get("/admin/pages", (req, res) => {
   res.status(200).sendFile(__dirname + "/static/views/landing.html");
 });
 
-app.listen(8080, console.log("Server Listening on Port: 8080"));
+app.listen(process.env.PORT || 8080);
