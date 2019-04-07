@@ -2,8 +2,90 @@ body{
   display: flex;
   flex-flow: nowrap column;
   align-items: center;
+  background-color: #FF5555;
+  margin: 0;
+}
+
+div{
+  font-size: 16pt;
+}
+
+p{
+  font-size: 16pt;
+}
+
+h2{
+  font-size: 24pt;
+  text-decoration: underline;
+}
+
+#logo{
+  width: 20rem;
+  height: 15rem;
+  background-image: url("../images/logo.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .container{
-  max-width: 60rem;
+  max-width: 50rem;
+  background-color: white;
+  padding: 1rem;
+}
+
+#images{
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+}
+
+.img{
+  width: 20rem;
+  height: 15rem;
+  background-image: url("../images/img1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 1rem;
+  box-shadow: 0 0.5rem 0.5rem 0 grey;
+  border-radius: 0.5rem;
+  border: 1px solid grey;
+}
+
+#img1{
+  background-image: url("../images/img1.jpg");
+  background-size: cover;
+}
+
+#img2{
+  background-image: url("../images/img2.jpg");
+}
+
+#img3{
+  background-image: url("../images/img3.jpg");
+}
+
+#img4{
+  background-image: url("../images/img4.jpg");
+}
+
+#help{
+  display: flex;
+  flex-flow: nowrap column;
+}
+
+#paypal{
+  display: flex;
+  flex-flow: nowrap column;
+  align-items: center;
+}
+
+#paypal a input{
+  margin: 1rem;
+}
+
+@media (min-width: 30rem) {
+  #help{
+    flex-flow: nowrap row;
+    justify-content: space-around;
+  }
 }
