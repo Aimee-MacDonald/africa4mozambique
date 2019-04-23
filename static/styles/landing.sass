@@ -1,0 +1,55 @@
+body
+  display: flex
+  flex-flow: nowrap column
+  align-items: center
+  background-color: #FF5555
+  margin: 0
+
+
+.container
+  width: 100%
+  max-width: 60rem
+  background-color: white
+  text-align: center
+  p
+    padding: 1rem
+  img
+    width: 100%
+  video
+    width: 100%
+  ul
+    text-align: left
+  div
+    margin-top: 2rem
+    strong
+      text-decoration: underline
+    p
+      margin: 0
+      margin-left: 2rem
+      padding: 0
+      text-align: left
+
+#logos
+  display: flex
+  height: 10rem
+  margin-top: 2rem
+  div
+    width: 100%
+    height: 100%
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center
+
+#logo1
+  background-image: url("../images/logo1.jpg")
+
+#logo2
+  background-image: url("../images/logo2.jpg")
+
+#logo3
+  background-image: url("../images/logo3.jpg")
+
+@media (min-width: 30rem)
+  #help
+    flex-flow: nowrap row
+    justify-content: space-around
